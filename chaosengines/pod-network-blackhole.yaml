@@ -1,1 +1,29 @@
-
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChaosEngine
+metadata:
+  name: podtato-blackhole
+  namespace: litmus
+spec:
+  engineState: "active"
+  annotationCheck: "false"
+  appinfo:
+    appns: "demo"
+    applabel: "component=podtato-head-entry"
+    appkind: "deployment"
+  chaosServiceAccount: litmus-admin
+  experiments:
+  - name: pod-network-loss
+    spec:
+      components:
+        env:
+        # network packet loss percentage
+        - name: NETWORK_PACKET_LOSS_PERCENTAGE
+          value: '100'
+        - name: TOTAL_CHAOS_DURATION
+          value: '60'
+        - name: CONTAINER_RUNTIME
+          value: docker
+        - name: SOCKET_PATH
+          value: /var/run/docker.sock
+        - name: PODS_AFFECTED_PERC
+          value: ""
