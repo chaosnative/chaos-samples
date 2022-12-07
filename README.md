@@ -8,7 +8,7 @@
 
    <tr>
     <td>EBS</td>
-    <td> <a href="https://github.com/chaosnative/chaos-samples/blob/main/aws-chaos-scenarios/ebs/permissions/permissions.json"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/ebs/permissions/permissions.json"> Click Here </a></td>
   </tr>
 
    <tr>
