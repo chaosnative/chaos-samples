@@ -23,12 +23,12 @@
 
    <tr>
     <td>ECS IN-VM</td>
-    <td> <a href="./aws-chaos-scenarios/ecs/permissions/in-vm/permissions"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/ecs/permissions/in-vm/permissions.json"> Click Here </a></td>
   </tr>
 
    <tr>
     <td>ECS OUT-OF-BOUND</td>
-    <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-bound/permissions"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-bound/permissions.json"> Click Here </a></td>
   </tr>
   
   <tr>
