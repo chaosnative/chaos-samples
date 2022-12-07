@@ -1,10 +1,10 @@
 # Pre-Requisite
 
-Here are the pre-requisites for executing AWS RDS experiments.
+Here are the pre-requisites for executing AWS EC2 Stop experiments.
 
 ## Create Kubernetes Secrets For AWS Auth With HCE
 
-- Make sure the credential used for creating secret should have the permission to perform RDS chaos. [Click Here](./permissions/permissions.json) for a sample policy file for the fault.
+- Make sure the credential used for creating secret should have the permission to perform EC2 Stop chaos. [Click Here](./permissions.json) for a sample policy file for the fault.
 - Define a Kubernetes secret having the AWS access configuration(key) in the <code>CHAOS_NAMESPACE</code>.
 - Make sure to use secret with the <code>default</code> profile.
 - A sample secret file looks like:
