@@ -22,22 +22,27 @@
   </tr>
 
    <tr>
-    <td>ECS</td>
-    <td> <a href="https://github.com/chaosnative/chaos-samples/blob/main/aws-chaos-scenarios/ecs/permissions"> Click Here </a></td>
+    <td>ECS IN-VM</td>
+    <td> <a href="./aws-chaos-scenarios/ecs/permissions/in-vm/permissions"> Click Here </a></td>
+  </tr>
+
+   <tr>
+    <td>ECS OUT-OF-BOUND</td>
+    <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-bound/permissions"> Click Here </a></td>
   </tr>
   
   <tr>
     <td>ELB</td>
-    <td> <a href="https://github.com/chaosnative/chaos-samples/blob/main/aws-chaos-scenarios/elb/permissions/permissions.json"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/elb/permissions/permissions.json"> Click Here </a></td>
   </tr>
 
   <tr>
     <td>Lambda</td>
-    <td> <a href="https://github.com/chaosnative/chaos-samples/blob/main/aws-chaos-scenarios/lambda/permissions/permissions.json"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/lambda/permissions/permissions.json"> Click Here </a></td>
   </tr>
 
   <tr>
     <td>RDS</td>
-    <td> <a href="https://github.com/chaosnative/chaos-samples/blob/main/aws-chaos-scenarios/rds/permissions/permissions.json"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/rds/permissions/permissions.json"> Click Here </a></td>
   </tr>
 </table>
