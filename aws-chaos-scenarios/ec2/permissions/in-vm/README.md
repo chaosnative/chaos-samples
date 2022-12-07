@@ -4,8 +4,8 @@ Here are the pre-requisites for executing AWS EC2 in-vm chaos faults.
 
 ## Create Kubernetes Secrets For AWS Auth With HCE
 
-- Ensure the credential used for creating secret should have the permission to perform EC2 in VM chaos such as stress, network, http and dns chaos. [Click Here](./in-vm/permissions.json) for a sample policy file for the fault.
-- Ensure the ssm agent is running on the target instances and you have ssm permission as mentioned in [sample policy](./in-vm/permissions.json) to perform in-vm fault.
+- Ensure the credential used for creating secret should have the permission to perform EC2 in VM chaos such as stress, network, http and dns chaos. [Click Here](./permissions.json) for a sample policy file for the fault.
+- Ensure the ssm agent is running on the target instances and you have ssm permission as mentioned in [sample policy](./permissions.json) to perform in-vm fault.
 - Define a Kubernetes secret having the AWS access configuration(key) in the <code>CHAOS_NAMESPACE</code>.
 - Ensure to use secret with the <code>default</code> profile.
 - A sample secret file looks like:

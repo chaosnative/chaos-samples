@@ -1,10 +1,10 @@
 # Pre-Requisite
 
-Here are the pre-requisites for executing ECS out-of-bound faults like instance-stop.
+Here are the pre-requisites for executing ECS out-of-band faults like instance-stop.
 
 ## Create Kubernetes Secrets For AWS Auth With HCE
 
-- Make sure the credential used for creating secret should have the permission to perform ECS out-of-bound faults. [Click Here](./out-of-bound/permissions.json) for a sample policy file for the fault.
+- Make sure the credential used for creating secret should have the permission to perform ECS out-of-band faults. [Click Here](./permissions.json) for a sample policy file for the fault.
 - Define a Kubernetes secret having the AWS access configuration(key) in the <code>CHAOS_NAMESPACE</code>.
 - Make sure to use secret with the <code>default</code> profile.
 - A sample secret file looks like:

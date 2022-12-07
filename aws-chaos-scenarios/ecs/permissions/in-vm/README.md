@@ -4,8 +4,8 @@ Here are the pre-requisites for executing ECS in-vm faults.
 
 ## Create Kubernetes Secrets For AWS Auth With HCE
 
-- Make sure the credential used for creating secret should have the permission to perform ECS in-vm faults. [Click Here](./in-vm/permissions.json) for a sample policy file for the fault.
-- Ensure the ssm agent is running on the target instances and you have ssm permission as mentioned in [sample policy](./in-vm/permissions.json) to perform in-vm fault.
+- Make sure the credential used for creating secret should have the permission to perform ECS in-vm faults. [Click Here](./permissions.json) for a sample policy file for the fault.
+- Ensure the ssm agent is running on the target instances and you have ssm permission as mentioned in [sample policy](./permissions.json) to perform in-vm fault.
 - Define a Kubernetes secret having the AWS access configuration(key) in the <code>CHAOS_NAMESPACE</code>.
 - Make sure to use secret with the <code>default</code> profile.
 - A sample secret file looks like:
