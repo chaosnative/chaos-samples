@@ -12,7 +12,7 @@
   </tr>
 
    <tr>
-    <td>EC2<td>
+    <td>EC2</td>
     <td> <a href="https://github.com/chaosnative/chaos-samples/blob/main/aws-chaos-scenarios/ec2/permissions"> Click Here </a></td>
   </tr>
 
