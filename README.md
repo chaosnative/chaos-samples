@@ -17,8 +17,8 @@
   </tr>
 
    <tr>
-    <td>EC2 OUT-OF-BOUND</td>
-    <td> <a href="./aws-chaos-scenarios/ec2/permissions/out-of-bound/permissions.json"> Click Here </a></td>
+    <td>EC2 (OUT-OF-BAND)</td>
+    <td> <a href="./aws-chaos-scenarios/ec2/permissions/out-of-band/permissions.json"> Click Here </a></td>
   </tr>
 
    <tr>
@@ -27,8 +27,8 @@
   </tr>
 
    <tr>
-    <td>ECS OUT-OF-BOUND</td>
-    <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-bound/permissions.json"> Click Here </a></td>
+    <td>ECS (OUT-OF-BAND)</td>
+    <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-band/permissions.json"> Click Here </a></td>
   </tr>
   
   <tr>
