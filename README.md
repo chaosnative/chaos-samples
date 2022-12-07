@@ -12,8 +12,13 @@
   </tr>
 
    <tr>
-    <td>EC2</td>
-    <td> <a href="https://github.com/chaosnative/chaos-samples/blob/main/aws-chaos-scenarios/ec2/permissions"> Click Here </a></td>
+    <td>EC2 IN-VM</td>
+    <td> <a href="./aws-chaos-scenarios/ec2/permissions/in-vm/permissions.json"> Click Here </a></td>
+  </tr>
+
+   <tr>
+    <td>EC2 OUT-OF-BOUND</td>
+    <td> <a href="./aws-chaos-scenarios/ec2/permissions/out-of-bound/permissions.json"> Click Here </a></td>
   </tr>
 
    <tr>
