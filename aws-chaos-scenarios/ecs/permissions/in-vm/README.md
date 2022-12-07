@@ -43,20 +43,20 @@ Enable Container Metadata: Ensure that the ECS container metadata is <code>enabl
 
 - In the new(copied) Launch Configuration update the user data in the launch configuration with <code>ECS_ENABLE_CONTAINER_METADATA</code> to be <code>true</code> as shown below.
 
-<img scr="./../../img/user-data.png">
+![user-data](https://user-images.githubusercontent.com/35391335/206241455-b4d665c0-d437-4965-be13-6319ffa03a28.png)
 
 - Update the role of the instances in the launch configuration prepared in Step 1
 
-<img src="https://github.com/uditgaurav/chaos-samples/blob/main/aws-chaos-scenarios/img/iam-instance-profile.png">
+![iam-instance-profile](https://user-images.githubusercontent.com/35391335/206241588-824708d1-aad5-4142-bcc4-1b14c1f75db3.png)
 
 - Now save the launch configuration by clicking on ‘Create Launch Configuration’.
 
-<img src="https://github.com/uditgaurav/chaos-samples/blob/main/aws-chaos-scenarios/img/create-launch-config.png">
+![create-launch-config](https://user-images.githubusercontent.com/35391335/206241652-5fa7904a-3cef-44da-a568-9be387281a68.png)
 
 - Update the auto-scaling group to a newer launch configuration
 
-<img src="https://github.com/uditgaurav/chaos-samples/blob/main/aws-chaos-scenarios/img/update-launch-config.png">
+![update-launch-config](https://user-images.githubusercontent.com/35391335/206241721-31c9a482-73a6-42ae-8b00-5b853f9fb4c9.png)
 
 - Restart the instances of the ECS cluster to pull the updated configuration:
 
-<img src="https://github.com/uditgaurav/chaos-samples/blob/main/aws-chaos-scenarios/img/restart-instances.png">
+![restart-instances](https://user-images.githubusercontent.com/35391335/206241766-6c684660-89f9-4868-b0ff-88d0409304bc.png)
