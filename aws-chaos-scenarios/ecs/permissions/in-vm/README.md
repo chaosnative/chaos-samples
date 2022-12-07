@@ -43,7 +43,7 @@ Enable Container Metadata: Ensure that the ECS container metadata is <code>enabl
 
 - In the new(copied) Launch Configuration update the user data in the launch configuration with <code>ECS_ENABLE_CONTAINER_METADATA</code> to be <code>true</code> as shown below.
 
-<img scr="https://github.com/uditgaurav/chaos-samples/blob/main/aws-chaos-scenarios/img/user-data.png">
+<img scr="./../../img/user-data.png">
 
 - Update the role of the instances in the launch configuration prepared in Step 1
 
