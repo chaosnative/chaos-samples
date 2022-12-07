@@ -45,4 +45,9 @@
     <td>RDS</td>
     <td> <a href="./aws-chaos-scenarios/rds/permissions/permissions.json"> Click Here </a></td>
   </tr>
+
+  <tr>
+    <td>For a superset permission for all the above categories you can refer this</td>
+    <td> <a href="./aws-chaos-scenarios/superset/permissions.json"> Click Here </a></td>
+  </tr>
 </table>
