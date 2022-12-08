@@ -71,8 +71,14 @@
                 "lambda:GetFunctionConcurrency",
                 "lambda:GetFunction",
                 "lambda:DeleteFunctionConcurrency",
-                "lambda:PutFunctionConcurrency"
-            ],
+                "lambda:PutFunctionConcurrency",
+                "lambda:DeleteLayerVersion",
+                "lambda:GetLayerVersion",
+                "lambda:ListLayerVersions",
+                "iam:ListAttachedRolePolicies",
+                "iam:DetachRolePolicy",
+                "iam:AttachRolePolicy"
+             ],
             "Resource": "*"
         },
         {
