@@ -10,6 +10,13 @@
                 "ec2:DescribeInstances"
             ],
             "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "autoscaling:DescribeAutoScalingInstances"
+            ],
+            "Resource": "*"
         }
     ]
 }

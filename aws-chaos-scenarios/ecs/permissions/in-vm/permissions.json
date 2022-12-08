@@ -48,7 +48,7 @@
         {
             "Effect": "Allow",
             "Action": [
-                "ec2:DescribeInstanceStatus"
+                "ec2:DescribeInstances"
             ],
             "Resource": [
                 "*"

@@ -24,6 +24,13 @@
         {
             "Effect": "Allow",
             "Action": [
+                "autoscaling:DescribeAutoScalingInstances"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
                 "ssm:GetDocument",
                 "ssm:DescribeDocument",
                 "ssm:GetParameter",
