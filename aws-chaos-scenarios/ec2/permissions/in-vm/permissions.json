@@ -8,6 +8,11 @@
                 "ssm:DescribeDocument",
                 "ssm:GetParameter",
                 "ssm:GetParameters",
+                "ssm:SendCommand",
+                "ssm:CancelCommand",
+                "ssm:CreateDocument",
+                "ssm:DeleteDocument",
+                "ssm:GetCommandInvocation",          
                 "ssm:UpdateInstanceInformation"
             ],
             "Resource": "*"
