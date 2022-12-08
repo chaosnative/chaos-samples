@@ -13,7 +13,8 @@
                 "ssm:CreateDocument",
                 "ssm:DeleteDocument",
                 "ssm:GetCommandInvocation",          
-                "ssm:UpdateInstanceInformation"
+                "ssm:UpdateInstanceInformation",
+                "ssm:DescribeInstanceInformation"
             ],
             "Resource": "*"
         },

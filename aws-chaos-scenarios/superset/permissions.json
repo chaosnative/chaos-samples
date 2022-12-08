@@ -28,12 +28,13 @@
                 "ssm:DescribeDocument",
                 "ssm:GetParameter",
                 "ssm:GetParameters",
-                "ssm:UpdateInstanceInformation",
                 "ssm:SendCommand",
                 "ssm:CancelCommand",
                 "ssm:CreateDocument",
                 "ssm:DeleteDocument",
-                "ssm:GetCommandInvocation"
+                "ssm:GetCommandInvocation",          
+                "ssm:UpdateInstanceInformation",
+                "ssm:DescribeInstanceInformation"
             ],
             "Resource": "*"
         },
