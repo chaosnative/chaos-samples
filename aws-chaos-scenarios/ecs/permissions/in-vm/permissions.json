@@ -28,7 +28,8 @@
                 "ssm:CreateDocument",
                 "ssm:DeleteDocument",
                 "ssm:GetCommandInvocation",          
-                "ssm:UpdateInstanceInformation"
+                "ssm:UpdateInstanceInformation",
+                "ssm:DescribeInstanceInformation"
             ],
             "Resource": "*"
         },
@@ -47,7 +48,7 @@
         {
             "Effect": "Allow",
             "Action": [
-                "ec2:DescribeInstanceStatus"
+                "ec2:DescribeInstances"
             ],
             "Resource": [
                 "*"

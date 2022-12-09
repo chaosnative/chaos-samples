@@ -24,16 +24,24 @@
         {
             "Effect": "Allow",
             "Action": [
+                "autoscaling:DescribeAutoScalingInstances"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
                 "ssm:GetDocument",
                 "ssm:DescribeDocument",
                 "ssm:GetParameter",
                 "ssm:GetParameters",
-                "ssm:UpdateInstanceInformation",
                 "ssm:SendCommand",
                 "ssm:CancelCommand",
                 "ssm:CreateDocument",
                 "ssm:DeleteDocument",
-                "ssm:GetCommandInvocation"
+                "ssm:GetCommandInvocation",          
+                "ssm:UpdateInstanceInformation",
+                "ssm:DescribeInstanceInformation"
             ],
             "Resource": "*"
         },
@@ -70,8 +78,14 @@
                 "lambda:GetFunctionConcurrency",
                 "lambda:GetFunction",
                 "lambda:DeleteFunctionConcurrency",
-                "lambda:PutFunctionConcurrency"
-            ],
+                "lambda:PutFunctionConcurrency",
+                "lambda:DeleteLayerVersion",
+                "lambda:GetLayerVersion",
+                "lambda:ListLayerVersions",
+                "iam:ListAttachedRolePolicies",
+                "iam:DetachRolePolicy",
+                "iam:AttachRolePolicy"
+             ],
             "Resource": "*"
         },
         {
