@@ -1,4 +1,4 @@
-# Chaos Sample
+# AWS Permissions For Chaos Experimentations 
 
 <table>
   <tr>
