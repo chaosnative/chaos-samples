@@ -23,22 +23,22 @@
 
    <tr>
     <td>ECS HOSTS (IN-VM)</td>
-    <td> <a href="./aws-chaos-scenarios/ecs/permissions/in-vm/permissions.json"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/ecs/hosts/permissions/in-vm/permissions.json"> Click Here </a></td>
   </tr>
   
    <tr>
     <td>ECS HOSTS (OUT-OF-BAND)</td>
-    <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-band/permissions.json"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/ecs/hosts/permissions/out-of-band/permissions.json"> Click Here </a></td>
   </tr>
   
    <tr>
     <td>ECS TASKS/SERVICES (IN-CONTAINER) (EC2-LAUNCH-TYPE)</td>
-    <td> <a href="./aws-chaos-scenarios/ecs/permissions/in-container/permissions.json"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/ecs/tasks-services/permissions/in-container/permissions.json"> Click Here </a></td>
   </tr>
 
    <tr>
     <td>ECS TASKS/SERVICES (FARGATE)</td>
-    <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-band"> Click Here </a></td>
+    <td> <a href="./aws-chaos-scenarios/ecs/tasks-services/permissions/out-of-band"> Click Here </a></td>
   </tr>
   
   <tr>
