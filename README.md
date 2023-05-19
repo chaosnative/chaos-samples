@@ -1,4 +1,4 @@
-# AWS Permissions For Chaos Experimentations 
+# AWS Permissions For Chaos Experimentation
 
 <table>
   <tr>
