@@ -22,17 +22,27 @@
   </tr>
 
    <tr>
-    <td>ECS HOSTS (EC2 LAUNCH TYPE)</td>
+    <td>ECS HOSTS (IN-VM)</td>
     <td> <a href="./aws-chaos-scenarios/ecs/permissions/in-vm/permissions.json"> Click Here </a></td>
   </tr>
-
+  
    <tr>
-    <td>ECS (OUT-OF-BAND)</td>
+    <td>ECS HOSTS (OUT-OF-BAND)</td>
     <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-band/permissions.json"> Click Here </a></td>
   </tr>
   
+   <tr>
+    <td>ECS TASKS/SERVICES (IN-CONTAINER) (EC2-LAUNCH-TYPE)</td>
+    <td> <a href="./aws-chaos-scenarios/ecs/permissions/in-container/permissions.json"> Click Here </a></td>
+  </tr>
+
+   <tr>
+    <td>ECS TASKS/SERVICES (FARGATE)</td>
+    <td> <a href="./aws-chaos-scenarios/ecs/permissions/out-of-band"> Click Here </a></td>
+  </tr>
+  
   <tr>
-    <td>ELB</td>
+    <td>ALB, CLB</td>
     <td> <a href="./aws-chaos-scenarios/elb/permissions/permissions.json"> Click Here </a></td>
   </tr>
 
