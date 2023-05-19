@@ -22,7 +22,7 @@
   </tr>
 
    <tr>
-    <td>ECS (IN-VM)</td>
+    <td>ECS HOSTS (EC2 LAUNCH TYPE)</td>
     <td> <a href="./aws-chaos-scenarios/ecs/permissions/in-vm/permissions.json"> Click Here </a></td>
   </tr>
 
