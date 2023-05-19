@@ -47,7 +47,7 @@
   </tr>
 
   <tr>
-    <td>Lambda</td>
+    <td>LAMBDA</td>
     <td> <a href="./aws-chaos-scenarios/lambda/permissions/permissions.json"> Click Here </a></td>
   </tr>
 
