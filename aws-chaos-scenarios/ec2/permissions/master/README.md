@@ -1,6 +1,6 @@
 # Pre-Requisite
 
-Here are the pre-requisites for executing AWS EC2 Stop experiments.
+Here are the pre-requisites for executing all AWS EC2 experiments.
 
 ## Create Kubernetes Secrets For AWS Auth With HCE
 
