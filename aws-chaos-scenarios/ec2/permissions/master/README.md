@@ -1,11 +1,10 @@
 # Pre-Requisite
 
-Here are the pre-requisites for executing AWS ELB experiments.
+Here are the pre-requisites for executing all AWS EC2 experiments.
 
 ## Create Kubernetes Secrets For AWS Auth With HCE
 
-- Make sure the credential used for creating secret should have the permission to perform ELB chaos. [Click Here](./permissions/permissions.json) for a sample policy file for the fault.
-- Ensure that the target ELB is a classic load balancer as the experiment right now only supports classic load balancer.
+- Make sure the credential used for creating secret should have the permission to perform EC2 Stop chaos. [Click Here](./permissions.json) for a sample policy file for the fault.
 - Define a Kubernetes secret having the AWS access configuration(key) in the <code>CHAOS_NAMESPACE</code>.
 - Make sure to use secret with the <code>default</code> profile.
 - A sample secret file looks like:
