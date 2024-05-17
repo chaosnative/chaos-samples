@@ -17,6 +17,11 @@
   </tr>
 
   <tr>
+    <td>Load Balancer (MASTER)</td>
+    <td> <a href="./aws-chaos-scenarios/load-balancer/master/permissions/permissions.json"> Click Here </a></td>
+  </tr>
+
+  <tr>
     <td>ECS HOSTS (MASTER)</td>
     <td> <a href="./aws-chaos-scenarios/ecs/master/permissions/permissions.json"> Click Here </a></td>
   </tr>
@@ -52,8 +57,18 @@
   </tr>
   
   <tr>
-    <td>ALB, CLB</td>
-    <td> <a href="./aws-chaos-scenarios/elb/permissions/permissions.json"> Click Here </a></td>
+    <td>ALB</td>
+    <td> <a href="./aws-chaos-scenarios/load-balancer/alb/permissions/permissions.json"> Click Here </a></td>
+  </tr>
+
+  <tr>
+    <td>CLB</td>
+    <td> <a href="./aws-chaos-scenarios/load-balancer/clb/permissions/permissions.json"> Click Here </a></td>
+  </tr>
+
+  <tr>
+    <td>NLB</td>
+    <td> <a href="./aws-chaos-scenarios/load-balancer/nlb/permissions/permissions.json"> Click Here </a></td>
   </tr>
 
   <tr>
