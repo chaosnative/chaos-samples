@@ -22,6 +22,11 @@
   </tr>
 
    <tr>
+    <td>EC2 (MASTER)</td>
+    <td> <a href="./aws-chaos-scenarios/ec2/permissions/master/permissions.json"> Click Here </a></td>
+  </tr>
+
+   <tr>
     <td>ECS HOSTS (IN-VM)</td>
     <td> <a href="./aws-chaos-scenarios/ecs/hosts/permissions/in-vm/permissions.json"> Click Here </a></td>
   </tr>
