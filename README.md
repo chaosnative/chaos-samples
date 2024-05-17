@@ -11,6 +11,16 @@
     <td> <a href="./aws-chaos-scenarios/ebs/permissions/permissions.json"> Click Here </a></td>
   </tr>
 
+  <tr>
+    <td>EC2 (MASTER)</td>
+    <td> <a href="./aws-chaos-scenarios/ec2/permissions/master/permissions.json"> Click Here </a></td>
+  </tr>
+
+  <tr>
+    <td>ECS HOSTS (MASTER)</td>
+    <td> <a href="./aws-chaos-scenarios/ecs/master/permissions/permissions.json"> Click Here </a></td>
+  </tr>
+
    <tr>
     <td>EC2 (IN-VM)</td>
     <td> <a href="./aws-chaos-scenarios/ec2/permissions/in-vm/permissions.json"> Click Here </a></td>
@@ -19,11 +29,6 @@
    <tr>
     <td>EC2 (OUT-OF-BAND)</td>
     <td> <a href="./aws-chaos-scenarios/ec2/permissions/out-of-band/permissions.json"> Click Here </a></td>
-  </tr>
-
-   <tr>
-    <td>EC2 (MASTER)</td>
-    <td> <a href="./aws-chaos-scenarios/ec2/permissions/master/permissions.json"> Click Here </a></td>
   </tr>
 
    <tr>
